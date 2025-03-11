@@ -23,7 +23,7 @@
          }
          while(!arg.frontIsClear())
          {
-            arg.climbUpLeft();
+            arg.climberUpLeft();
             n = n + 1;
          }
          if(arg.nextToABeeper())
@@ -33,7 +33,7 @@
          arg.turnAround();
          for(int k = 1; k <= n; k++)
          {
-            arg.climbDownRight();
+            arg.climberDownRight();
          }
          while(!arg.nextToABeeper())
          {
@@ -49,7 +49,7 @@
          }
          while(!arg.frontIsClear())
          {
-            arg.climbUpRight();
+            arg.climberUpRight();
             n = n + 1;
          }
          if(arg.nextToABeeper())
@@ -59,7 +59,7 @@
          arg.turnAround();
          for(int k = 1; k <= n; k++)
          {
-            arg.climbDownLeft();
+            arg.climberDownLeft();
          }
          while(!arg.nextToABeeper())
          {
