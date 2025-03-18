@@ -1,0 +1,447 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Lab15",
+            "request": "launch",
+            "mainClass": "Lab15",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab11",
+            "request": "launch",
+            "mainClass": "Lab11",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab10",
+            "request": "launch",
+            "mainClass": "Lab10",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "LabYY",
+            "request": "launch",
+            "mainClass": "LabYY",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab09",
+            "request": "launch",
+            "mainClass": "Lab09",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Lab00",
+            "request": "launch",
+            "mainClass": "Lab00",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab01",
+            "request": "launch",
+            "mainClass": "Lab01",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab02",
+            "request": "launch",
+            "mainClass": "Lab02",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab03",
+            "request": "launch",
+            "mainClass": "Lab03",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab04",
+            "request": "launch",
+            "mainClass": "Lab04",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab05",
+            "request": "launch",
+            "mainClass": "Lab05",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab06",
+            "request": "launch",
+            "mainClass": "Lab06",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab07",
+            "request": "launch",
+            "mainClass": "Lab07",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab08",
+            "request": "launch",
+            "mainClass": "Lab08",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab12",
+            "request": "launch",
+            "mainClass": "Lab12",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab14",
+            "request": "launch",
+            "mainClass": "Lab14",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab16",
+            "request": "launch",
+            "mainClass": "Lab16",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab17",
+            "request": "launch",
+            "mainClass": "Lab17",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab18",
+            "request": "launch",
+            "mainClass": "Lab18",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "LabXX",
+            "request": "launch",
+            "mainClass": "LabXX",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Driver05",
+            "request": "launch",
+            "mainClass": "Lab05.Driver05",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "Driver06",
+            "request": "launch",
+            "mainClass": "Lab06.Driver06",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "Driver07",
+            "request": "launch",
+            "mainClass": "Lab07.Driver07",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "Driver08",
+            "request": "launch",
+            "mainClass": "Lab08.Driver08",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "Driver10",
+            "request": "launch",
+            "mainClass": "Lab10.Driver10",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "Driver15",
+            "request": "launch",
+            "mainClass": "Lab15.Driver15",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "Driver17",
+            "request": "launch",
+            "mainClass": "Lab17.Driver17",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "Driver04",
+            "request": "launch",
+            "mainClass": "Lab04.Driver04",
+            "projectName": "Unit3"
+        },
+        {
+            "type": "java",
+            "name": "Driver05(1)",
+            "request": "launch",
+            "mainClass": "Lab05.Driver05",
+            "projectName": "Unit3"
+        },
+        {
+            "type": "java",
+            "name": "Driver08(1)",
+            "request": "launch",
+            "mainClass": "Lab08.Driver08",
+            "projectName": "Unit3"
+        },
+        {
+            "type": "java",
+            "name": "Driver12",
+            "request": "launch",
+            "mainClass": "Lab12.Driver12",
+            "projectName": "Unit3"
+        },
+        {
+            "type": "java",
+            "name": "Driver15(1)",
+            "request": "launch",
+            "mainClass": "Lab15.Driver15",
+            "projectName": "Unit3"
+        },
+        {
+            "type": "java",
+            "name": "Lab16(1)",
+            "request": "launch",
+            "mainClass": "Lab16.Lab16",
+            "projectName": "Unit3"
+        },
+        {
+            "type": "java",
+            "name": "LabNecklace",
+            "request": "launch",
+            "mainClass": "Lab16.LabNecklace",
+            "projectName": "Unit3"
+        },
+        {
+            "type": "java",
+            "name": "Driver02",
+            "request": "launch",
+            "mainClass": "Lab02.Driver02",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver03",
+            "request": "launch",
+            "mainClass": "Lab03.Driver03",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "MakeDataFile",
+            "request": "launch",
+            "mainClass": "Lab04.MakeDataFile",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver05(2)",
+            "request": "launch",
+            "mainClass": "Lab05.Driver05",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver07(1)",
+            "request": "launch",
+            "mainClass": "Lab07.Driver07",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver09",
+            "request": "launch",
+            "mainClass": "Lab09.Driver09",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver10(1)",
+            "request": "launch",
+            "mainClass": "Lab10.Driver10",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver11",
+            "request": "launch",
+            "mainClass": "Lab11.Driver11",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver12(1)",
+            "request": "launch",
+            "mainClass": "Lab12.Driver12",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver13",
+            "request": "launch",
+            "mainClass": "Lab13.Driver13",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "BattleshipDriver",
+            "request": "launch",
+            "mainClass": "Lab14.BattleshipDriver",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver15(2)",
+            "request": "launch",
+            "mainClass": "Lab15.Driver15",
+            "projectName": "Unit4"
+        },
+        {
+            "type": "java",
+            "name": "Driver01",
+            "request": "launch",
+            "mainClass": "Lab01.Driver01",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver02(1)",
+            "request": "launch",
+            "mainClass": "Lab02.Driver02",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver04(1)",
+            "request": "launch",
+            "mainClass": "Lab04.Driver04",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "MakeDataFile(1)",
+            "request": "launch",
+            "mainClass": "Lab04.MakeDataFile",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver07(2)",
+            "request": "launch",
+            "mainClass": "Lab07.Driver07",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver08(2)",
+            "request": "launch",
+            "mainClass": "Lab08.Driver08",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver09(1)",
+            "request": "launch",
+            "mainClass": "Lab09.Driver09",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver10(2)",
+            "request": "launch",
+            "mainClass": "Lab10.Driver10",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver11(1)",
+            "request": "launch",
+            "mainClass": "Lab11.Driver11",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver12(2)",
+            "request": "launch",
+            "mainClass": "Lab12.Driver12",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Lab13",
+            "request": "launch",
+            "mainClass": "Lab13.Lab13",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver14",
+            "request": "launch",
+            "mainClass": "Lab14.Driver14",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Koch",
+            "request": "launch",
+            "mainClass": "Lab14.Koch",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "Driver15(3)",
+            "request": "launch",
+            "mainClass": "Lab15.Driver15",
+            "projectName": "Unit5"
+        },
+        {
+            "type": "java",
+            "name": "MakeDataFile(2)",
+            "request": "launch",
+            "mainClass": "Lab15.MakeDataFile",
+            "projectName": "Unit5"
+        }
+    ]
+}
