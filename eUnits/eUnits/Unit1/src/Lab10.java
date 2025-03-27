@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Lab10 {
 	public static void main(String[] args) {
 		
-        String filename = SelectDialog.showDropdownDialog("What robot world?", "What robot world?", "maze1", "maze2", "maze3");
+        String filename = SelectDialog.showDropdownDialog("What robot world?", "What robot world?", "maze1", "maze2", "maze3","maze9r");
 		Display.openWorld("maps/"+filename+".map");
 		Display.setSize(10, 10);
 		Display.setSpeed(10);

@@ -17,7 +17,7 @@ public class Lab11 {
 		new One(37,9).display();
 		new Zero(44,9).display();
 		new Four(51,9).display();
-		
+		/*8順時鐘:上1,右1=2,右2=3,下=4,左2=5,左1=6,中=7 */
 		
 		
 		

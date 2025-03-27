@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab02",
+            "request": "launch",
+            "mainClass": "Lab02.Lab02",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "Lab01",
+            "request": "launch",
+            "mainClass": "Lab01.Lab01",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "Lab00",
+            "request": "launch",
+            "mainClass": "Lab00.Lab00",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
+            "name": "maze9r_04",
+            "request": "launch",
+            "mainClass": "maze9r_04",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "test02",
+            "request": "launch",
+            "mainClass": "test02",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "test999",
+            "request": "launch",
+            "mainClass": "test999",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
             "name": "Lab15",
             "request": "launch",
             "mainClass": "Lab15",

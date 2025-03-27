@@ -31,7 +31,7 @@ public class Athlete extends Robot {
 	}
 
 
-	public void supRobot(String s) { // 0-3上下左右移動4-7面向
+	public void supRobot(String s) { // 0-3右上左下移動4-7面向
 		String[] cmd = s.split("");
 		for (int i = 0; i < cmd.length; i++) {
 
