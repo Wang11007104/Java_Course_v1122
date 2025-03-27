@@ -2,7 +2,7 @@ package Lab02;
 
 import javax.swing.JFrame;
 
-import Lab01.Panel01;
+
 
 public class Lab02 extends JFrame {
 

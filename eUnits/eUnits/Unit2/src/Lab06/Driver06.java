@@ -1,3 +1,5 @@
+package Lab06;
+
 	//Name______________________________ Date_____________
    import edu.fcps.Turtle;
    import java.awt.Color;
@@ -15,16 +17,36 @@
          
          Turtle.setCrawl(true);     //a class method
       
-         SquareTurtle smidge = new SquareTurtle();
+         SquareTurtle smidge = new SquareTurtle(500,300,135,20);    
+         smidge.setColor(Color.yellow);
+         smidge.setThickness(6);
+         smidge.drawShape();
+         smidge = new SquareTurtle(500,300,135,30);
+         smidge.setColor(Color.yellow);
+         smidge.setThickness(6);
+         smidge.drawShape();
+         smidge = new SquareTurtle(500,300,135,40);
+         smidge.setColor(Color.yellow);
+         smidge.setThickness(6);
+         smidge.drawShape();
+         smidge = new SquareTurtle(500,300,135,50);
+         smidge.setColor(Color.yellow);
+         smidge.setThickness(6);
+         smidge.drawShape();
+         
+         smidge = new SquareTurtle(100,250,-45,30);
+         smidge.setColor(Color.red);
+         smidge.setThickness(8);
+         smidge.drawShape();
+         
+         smidge = new SquareTurtle(300,300,90,50);
          smidge.setColor(Color.BLUE);
          smidge.setThickness(6);
          smidge.drawShape();
-      
-         /************************/
-      	/*                      */
-      	/* Your code goes here. */
-      	/*                      */
-      	/************************/
-      
+         smidge = new SquareTurtle(300,300,90,100);
+         smidge.setColor(Color.BLUE);
+         smidge.setThickness(6);
+         smidge.drawShape();
+   
       }
    }

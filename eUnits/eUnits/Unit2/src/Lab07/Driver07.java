@@ -1,7 +1,11 @@
+package Lab07;
+
 	//Name______________________________ Date_____________
    import edu.fcps.Turtle;
    import java.awt.Color;
    import javax.swing.*;
+
+import Lab06.TurtlePanel;
    public class Driver07
    {
       public static void main(String[] args)
@@ -17,12 +21,30 @@
          smidge.setColor(Color.BLUE);
          smidge.setThickness(6);
          smidge.drawShape();
+         
+         smidge = new PolygonTurtle(100.0,4);
+         smidge.setColor(Color.BLUE);
+         smidge.setThickness(6);
+         smidge.drawShape();
+        
+         smidge = new PolygonTurtle(100.0,5);
+         smidge.setColor(Color.BLUE);
+         smidge.setThickness(6);
+         smidge.drawShape();
       
-         /************************/
-      	/*                      */
-      	/* Your code goes here. */
-      	/*                      */
-      	/************************/
-      
+         smidge = new PolygonTurtle(100.0,6);
+         smidge.setColor(Color.BLUE);
+         smidge.setThickness(6);
+         smidge.drawShape();
+         
+         smidge = new PolygonTurtle(100.0,7);
+         smidge.setColor(Color.BLUE);
+         smidge.setThickness(6);
+         smidge.drawShape();
+         
+         smidge = new PolygonTurtle(100.0,8);
+         smidge.setColor(Color.BLUE);
+         smidge.setThickness(6);
+         smidge.drawShape();
       }
    }
