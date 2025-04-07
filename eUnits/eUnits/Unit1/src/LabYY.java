@@ -17,8 +17,8 @@ public class LabYY {
 		forRun[] robots = new forRun[N];
 		Thread[] tn = new Thread[N];
 		for (int i = 0; i < N; i++) {
-			robots[i] = new forRun(i + 1,N);
-//			robots[i].n=N;
+			robots[i] = new forRun(i,1,N);
+	//		robots[i].n=N;
 			tn[i] = new Thread(robots[i]);
 		}
 		for (int i = 0; i < N; i++)
@@ -27,8 +27,8 @@ public class LabYY {
 }
 class forRun extends Athlete implements Runnable{
 
-	public forRun(int y,int N) {
-		
+	public forRun(int x , int y,int N) {
+		super(x, y, y, 0);
 		n=N;
 	}
 	public int n;

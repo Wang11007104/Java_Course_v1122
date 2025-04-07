@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q3",
+            "request": "launch",
+            "mainClass": "Q3",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "Q2",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Q1",
+            "projectName": "Unit1"
+        },
+        {
+            "type": "java",
+            "name": "Lab03",
+            "request": "launch",
+            "mainClass": "Lab03.Lab03",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
             "name": "Lab02",
             "request": "launch",
             "mainClass": "Lab02.Lab02",

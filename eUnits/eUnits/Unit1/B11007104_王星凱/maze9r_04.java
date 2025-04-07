@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class maze9r_04 {
 	public static void main(String[] args) {
 		
-        String filename = SelectDialog.showSelectionDialog("world", "world", "maze9r");
+        String filename = SelectDialog.showSelectionDialog("world", "world", "school");
 		Display.openWorld("Unit1/B11007104_王星凱/"+filename+".map");
 		Display.setSize(10, 10);
 		Display.setSpeed(10);

@@ -9,11 +9,16 @@ public class Lab10 {
 		Display.openWorld("maps/"+filename+".map");
 		Display.setSize(10, 10);
 		Display.setSpeed(10);
-		Athlete pete = new Athlete(1, 1, 0, 0);
-		followWallsRight(pete);
+		//Athlete pete = new Athlete(1, 1, 0, 0);
+		//followWallsRight(pete);
+		//pete.followWallsRight(pete);
+
+
+		var pete=new Athlete();
+		pete.followWallsLeft();
 	}
 
-	public static void followWallsRight(Athlete s) {
+	/*public static void followWallsRight(Athlete s) {
 		while (!s.nextToABeeper()) {
 			if (!s.rightIsClear() && s.frontIsClear() && !s.nextToABeeper()) {
 				s.move();
@@ -27,5 +32,5 @@ public class Lab10 {
 			}
 		}
 
-	}
+	}*/
 }

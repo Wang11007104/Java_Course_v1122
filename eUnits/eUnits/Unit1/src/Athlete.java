@@ -59,7 +59,40 @@ public class Athlete extends Robot {
 	}
 
 
-	
+	public  void followWallsRight() {
+		while (!nextToABeeper()) {
+			if (!rightIsClear() && frontIsClear() && !nextToABeeper()) {
+				move();
+			} else if (rightIsClear()) {
+				turnRight();
+				move();
+			} else if (!frontIsClear()) {
+				turnLeft();
+			} else {
+				move();
+			}
+		}
+
+	}
+
+
+	public  void followWallsLeft() {
+		while (!nextToABeeper()) {
+			if (!leftIsClear() && frontIsClear() && !nextToABeeper()) {
+				move();
+			} else if (leftIsClear()) {
+				turnLeft();
+				move();
+			} else if (!frontIsClear()) {
+				turnRight();
+			} else {
+				move();
+			}
+		}
+
+	}
+
+
 }
 
 

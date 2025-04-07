@@ -10,6 +10,7 @@ public class Lab04 {
 		arg.turnRight();
 		arg.move();
 		arg.move();
+		
 	}
 	
 	public static void main(String[] args) {

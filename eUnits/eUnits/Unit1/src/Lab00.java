@@ -7,7 +7,8 @@ public class Lab00 {
    }
 
    public static void main(String[] args) {
-      Display.openWorld("maps/first.map");
-      new Robot();
+      Display.openWorld("maps/mop.map");
+      Robot a1=new Athlete();
+      
    }
 }
