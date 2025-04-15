@@ -17,24 +17,30 @@ package Lab06;
          
          Turtle.setCrawl(true);     //a class method
       
-         SquareTurtle smidge = new SquareTurtle(500,300,135,20);    
+         SquareTurtle smidge = new SquareTurtle(500,300,45,20);    
+         smidge.setColor(Color.yellow);
+         smidge = new SquareTurtle(500,300,45,30);
          smidge.setColor(Color.yellow);
          smidge.setThickness(6);
          smidge.drawShape();
-         smidge = new SquareTurtle(500,300,135,30);
+         smidge = new SquareTurtle(500,300,45,60);
          smidge.setColor(Color.yellow);
          smidge.setThickness(6);
          smidge.drawShape();
-         smidge = new SquareTurtle(500,300,135,40);
+         smidge = new SquareTurtle(500,300,45,90);
          smidge.setColor(Color.yellow);
          smidge.setThickness(6);
          smidge.drawShape();
-         smidge = new SquareTurtle(500,300,135,50);
+         smidge = new SquareTurtle(500,300,45,120);
+         smidge.setColor(Color.yellow);
+         smidge.setThickness(6);
+         smidge.drawShape();
+         smidge = new SquareTurtle(500,300,45,150);
          smidge.setColor(Color.yellow);
          smidge.setThickness(6);
          smidge.drawShape();
          
-         smidge = new SquareTurtle(100,250,-45,30);
+         smidge = new SquareTurtle(100,250,45,30);
          smidge.setColor(Color.red);
          smidge.setThickness(8);
          smidge.drawShape();

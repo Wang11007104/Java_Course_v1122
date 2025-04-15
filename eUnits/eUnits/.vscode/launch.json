@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab04",
+            "request": "launch",
+            "mainClass": "Lab04.Lab04",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
             "name": "Q3",
             "request": "launch",
             "mainClass": "Q3",

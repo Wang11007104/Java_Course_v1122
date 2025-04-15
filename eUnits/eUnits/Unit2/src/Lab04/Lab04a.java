@@ -4,7 +4,7 @@ import javax.swing.*;
 
 import Lab03.Panel03;
 import edu.fcps.Bucket;
-public class Lab04
+public class Lab04a
 {
 	public static void main (String arg[]) {
 		JFrame frame = new JFrame("Buckets");
@@ -15,17 +15,27 @@ public class Lab04
 		frame.setVisible(true);
 		
 		Bucket.setSpeed(10);
-		Bucket.useTotal(false);
+		Bucket.useTotal(true);
 		
 		Bucket five= new Bucket(5);
 		Bucket three =new Bucket(3);
 		
-		five.fill();
-		five.pourInto(three);//2
-		three.spill();//0
-		five.pourInto(three);//0
-		five.fill();//5
-		five.pourInto(three);//3
-		
+		three.fill();
+        three.pourInto(five);
+		three.fill();
+        three.pourInto(five);
+        five.spill();
+        five.fill();
+        three.spill();
+        five.pourInto(three);
+        three.spill();
+        five.pourInto(three);
+        five.fill();
+        five.pourInto(three);
+        three.spill();
+        five.fill();
+        three.fill();
+
+        
 	} 
 }
