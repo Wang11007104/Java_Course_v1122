@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Driver09",
+            "request": "launch",
+            "mainClass": "Lab09.Driver09",
+            "projectName": "Unit2"
+        },
+        {
+            "type": "java",
             "name": "Lab04",
             "request": "launch",
             "mainClass": "Lab04.Lab04",

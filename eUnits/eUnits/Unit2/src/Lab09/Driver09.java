@@ -16,23 +16,23 @@ import Lab06.TurtlePanel;
           frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
           frame.setContentPane(new TurtlePanel());
           frame.setVisible(true);  
-      	
+          Turtle.clear(Color.white);
+          
           TwistyTurtle smidge= new TwistyTurtle();
-          smidge.setColor(Color.BLUE);
+          smidge.setColor(Color.yellow);
           smidge.setThickness(6);
           smidge.drawShape();
           
-          Turtle.clear(Color.green);
+          
     	  
-          TwistyTurtle2 b= new TwistyTurtle2(300,300,0,150,0);
-          b.setColor(Color.BLUE);
+          TwistyTurtle2 b= new TwistyTurtle2(100,250,90,150,0);
+          b.setColor(Color.black);
           b.setThickness(6);
           b.drawShape();
+        
           
-          Turtle.clear(Color.green);
-          
-          TwistyTurtle3 c= new TwistyTurtle3(300,300,0,150,4);
-          c.setColor(Color.BLUE);
+          TwistyTurtle3 c= new TwistyTurtle3(500,350,0,150,4);
+          c.setColor(Color.red);
           c.setThickness(6);
           c.drawShape();
       }

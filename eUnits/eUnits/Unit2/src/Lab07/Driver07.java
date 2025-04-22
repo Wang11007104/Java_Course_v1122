@@ -37,14 +37,6 @@ import Lab06.TurtlePanel;
          smidge.setThickness(6);
          smidge.drawShape();
          
-         smidge = new PolygonTurtle(100.0,7);
-         smidge.setColor(Color.BLUE);
-         smidge.setThickness(6);
-         smidge.drawShape();
          
-         smidge = new PolygonTurtle(100.0,8);
-         smidge.setColor(Color.BLUE);
-         smidge.setThickness(6);
-         smidge.drawShape();
       }
    }

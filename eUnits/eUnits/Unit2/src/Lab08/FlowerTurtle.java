@@ -3,7 +3,7 @@ package Lab08;
 	//Name______________________________ Date_____________
    import edu.fcps.Turtle;
    import java.awt.Color;
-   public class FlowerTurtle extends Turtle
+   public class FlowerTurtle extends Turtle implements Runnable
    {
       private double mySize;
       private Color myColor;
@@ -68,4 +68,16 @@ package Lab08;
          drawPetals();
          drawStem();
       }
+
+
+
+      public void run(){
+
+         drawShape();
+
+
+
+      }
+
+
    }

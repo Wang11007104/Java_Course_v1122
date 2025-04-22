@@ -20,18 +20,14 @@ import Lab06.TurtlePanel;
     	  Turtle.clear(Color.white);
     	  
     	  Turtle.setCrawl(true);
-    	  
-    	  FlowerTurtle a =new FlowerTurtle(100.0,25.0,Color.blue);
-    	  a.drawShape();
-    	  
-    	  FlowerTurtle b =new FlowerTurtle(200.0,25.0,Color.red);
-    	  b.drawShape();
-    	  
-    	  FlowerTurtle c =new FlowerTurtle(300.0,25.0,Color.orange);
-    	  c.drawShape();
-    	  
-    	  FlowerTurtle d =new FlowerTurtle(400.0,25.0,Color.pink);
-    	  d.drawShape();
+
+
+
+         new Thread( new FlowerTurtle(100,45,Color.red)).start();
+         new Thread( new FlowerTurtle(250,45,Color.yellow)).start();
+         new Thread( new FlowerTurtle(400,45,Color.blue)).start();
+         new Thread( new FlowerTurtle(550,45,Color.black)).start();
+    
     	  
       }
    }
