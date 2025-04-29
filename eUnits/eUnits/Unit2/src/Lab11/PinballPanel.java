@@ -1,3 +1,5 @@
+package Lab11;
+
    //Torbert, e-mail: smtorbert@fcps.edu
 	//version 6.17.2003
 	//Billington, version 7.25.2007
@@ -23,9 +25,9 @@
          myBuffer.fillRect(0, 0, FRAME,FRAME);
          int xPos = (int)(Math.random()*(FRAME-100) + 50);
          int yPos = (int)(Math.random()*(FRAME-100)+ 50);
-         ball = new Ball(xPos, yPos, 50, Color.BLACK);
+         ball = new Ball(xPos, yPos, 43, Color.BLACK);
         
-         t = new Timer(5, new Listener());
+         t = new Timer(1, new Listener());
          t.start();
       }
        public void paintComponent(Graphics g)
@@ -36,11 +38,14 @@
       {
           public void actionPerformed(ActionEvent e)
          {
+        	for (int i = 0; i < 5; i++) {
             myBuffer.setColor(BACKGROUND);    //cover the 
             myBuffer.fillRect(0,0,FRAME,FRAME);   //old ball
             ball.move(FRAME,FRAME);
-            ball.draw(myBuffer);     
+            ball.draw(myBuffer); 
+        	}
             repaint();
+            
          }
       }
    }

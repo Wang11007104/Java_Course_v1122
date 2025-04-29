@@ -1,5 +1,9 @@
+package Lab11;
+
 //Name:              Date:
    import java.awt.*;
+
+import Lab10.Polkadot;
     public class Ball extends Polkadot
    {
       private double dx;       // pixels to move each time step() is called.
@@ -49,7 +53,27 @@
             setX(rightEdge - getRadius());
             dx = dx * -1; 
          }
-         else if 
-         
+         else if (getX()<= getRadius()) {
+        	 setX(getRadius());
+        	 dx= dx*-1;
+         }
+         setY(getY()+dy);
+
+         if (getY() >= bottomEdge - getRadius ()) { // hits the bottom edge
+        	 setY (bottomEdge - getRadius ()) ;
+        	 dy = dy * -1;
+        	 } else if ( getY()  <= getRadius()) // hits the up edge
+        	 {
+        	 setY (getRadius());
+        	 dy = dy*-1;
+        	 }
       }
+       
+       
+       
+	public void draw(Graphics myBuffer) {
+		// TODO Auto-generated method stub
+		myBuffer.setColor(Color.black);
+		myBuffer.fillOval((int)(getX() - getRadius()), (int)(getY()-getRadius()), (int)getDiameter(), (int)getDiameter());
+	}
    }

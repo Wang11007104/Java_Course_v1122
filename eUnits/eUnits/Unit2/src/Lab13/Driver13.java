@@ -1,18 +1,18 @@
-package Lab10;
+package Lab13;
 
    //Torbert, e-mail: smtorbert@fcps.edu
 	//version 6.17.2003
 
    import javax.swing.JFrame;
-    public class Driver10
+    public class Driver13
    {
        public static void main(String[] args)
       { 
-         JFrame frame = new JFrame("Unit2, Lab10: Polka Dots");
-         frame.setSize(400, 400);
+         JFrame frame = new JFrame("Unit2, Lab13: ProjectPanel");
+         frame.setSize(700, 500);
          frame.setLocation(0, 0);
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-       	frame.setContentPane(new PolkaDotPanel());
+       	frame.setContentPane(new ProjectPanel());
          frame.setVisible(true);
       }
    }
