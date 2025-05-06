@@ -76,13 +76,21 @@ package Lab15;
                   if (yPos>9) {
                      yPos=yPos-14;
                   } else{
-                     dir=3;
-                     xPos=4;
-                     yPos=0;
+                     dir=2;
+                     xPos=360;
+                     yPos=-4;
                   
                }   
-               
                   break;
+                case 2: // west
+                  if (xPos > 17) {
+                     xPos =xPos- 15;
+                  } else {
+                     dir =3;
+                     xPos=4;
+                     yPos=0;
+                  }
+                  break;   
                case 3:
                   if (yPos<361) {
                      yPos=yPos+14;
