@@ -1,11 +1,12 @@
-package Lab14;
+package Lab17;
 
 	// Phil Ero 15JUL08
 	
    import javax.swing.*;
 
-import Lab10.Polkadot;
-import Lab11.Ball;
+import Lab17.Polkadot;
+import Lab17.Ball;
+import Lab17.Bumper;
 
 
 import java.awt.*;
@@ -71,12 +72,34 @@ import java.awt.*;
          hits = 0;
          timer = new Timer(5, new Listener());
          timer.start();
+
+
+      addKeyListener(new Key());
+      setFocusable(true);
+
+
       }
       
        public void paintComponent(Graphics g)
       {
          g.drawImage(myImage, 0, 0, getWidth(), getHeight(), null);
       }
+
+      private class Key extends KeyAdapter {
+         @Override
+         public void keyPressed(KeyEvent e) {
+             if (e.getKeyCode() == KeyEvent.VK_UP)
+                 bumper.sety(bumper.getY() - 10);
+             if (e.getKeyCode() == KeyEvent.VK_DOWN)
+                 bumper.sety(bumper.getY() + 10);
+             if (e.getKeyCode() == KeyEvent.VK_LEFT)
+                 bumper.setx(bumper.getX() - 10);  
+             if (e.getKeyCode() == KeyEvent.VK_RIGHT)
+             bumper.setx(bumper.getX() + 10); 
+     
+             
+         }
+     }
           
        private class Listener implements ActionListener
       {
@@ -89,7 +112,7 @@ import java.awt.*;
             
             // check for collisions
             collide(ball, prize);
-            BumperCollision.collide(bumper, ball);
+            BumperCollision.collide( bumper, ball);
          
             // draw ball, bumper & prize
             ball.draw(myBuffer);

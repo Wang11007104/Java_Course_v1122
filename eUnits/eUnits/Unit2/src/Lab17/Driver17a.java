@@ -1,7 +1,9 @@
+package Lab17;
+
 	// Torbert, 7.20.06
 
    import javax.swing.JFrame;
-    public class Driver17
+    public class Driver17a
    {
        public static void main(String[] args)
       { 

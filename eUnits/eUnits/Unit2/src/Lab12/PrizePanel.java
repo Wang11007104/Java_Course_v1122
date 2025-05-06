@@ -28,10 +28,10 @@ import java.awt.*;
       myBuffer. fillRect(0, 0, FRAME, FRAME) ;
       int xPos = (int) (Math.random() * (FRAME - 100) + 50);
       int yPos = (int) (Math.random()* (FRAME - 100) + 50);
-      ball = new Ball (xPos, yPos, 50, Color.black);
+      ball = new Ball (xPos, yPos, 30, Color.black);
       xPos = (int) (Math.random() * (FRAME - 100) + 50);
       yPos = (int) (Math.random() * (FRAME - 100) + 50);
-      pd = new Polkadot (xPos, yPos, 25, Color.red) ;
+      pd = new Polkadot (xPos, yPos, 30, Color.red) ;
       t = new Timer(5, new Listener ());
       t.start();
          
@@ -40,21 +40,25 @@ import java.awt.*;
       {
     	   g.drawImage(myImage,0,0,getWidth(),getHeight(),null);
       }
+
+
        private class Listener implements ActionListener
       {
           public void actionPerformed(ActionEvent e)
          {
         	  myBuffer.setColor(BACKGROUND);
-              myBuffer.fillRect(0, 0, FRAME, FRAME);
+           myBuffer.fillRect(0, 0, FRAME, FRAME);
               
-        	  myBuffer.setColor (BACKGROUND); // cover the myBuffer. fillect(0, 0, FRAME, FRAME) ; // old ball
+        	
         	  ball. move (FRAME, FRAME);
         	  collide (ball, pd);
-        	  ball.draw(myBuffer); pd.draw(myBuffer);
+
+        	  ball.draw(myBuffer); 
+           pd.draw(myBuffer);
+
         	  myBuffer. setColor (Color.black);
         	  myBuffer. setFont (new Font("Monospaced", Font. BOLD, 24)) ;
-        	  
-			myBuffer .drawString("Count : " + hits , FRAME - 150, 25);
+			  myBuffer .drawString("Count : " + hits , FRAME - 150, 25);
         	  repaint();
          }
       }   

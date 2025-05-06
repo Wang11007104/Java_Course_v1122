@@ -1,6 +1,4 @@
-package Lab14;
-
-import Lab11.Ball;
+package Lab17;
 
 // Phil Ero 15JUL08
     

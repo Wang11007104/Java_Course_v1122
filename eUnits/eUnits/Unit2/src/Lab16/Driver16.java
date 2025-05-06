@@ -1,10 +1,10 @@
-package Lab15;
+package Lab16;
 
    //Torbert, e-mail: mr@torbert.com, website: www.mr.torbert.com
 	//version 6.17.2003
 
    import javax.swing.JFrame;
-   public class Driver15
+   public class Driver16
    {
       public static void main(String[] args)
       { 
@@ -12,7 +12,7 @@ package Lab15;
          frame.setSize(400, 400);
          frame.setLocation(175, 50);
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-         frame.setContentPane(new KarelPanel());
+         frame.setContentPane(new MousePanel());
          frame.setVisible(true);
       }
    }

@@ -1,11 +1,11 @@
-package Lab14;
+package Lab17;
 
 // Name: 				Date:
 
 import java.awt.*;
 
-import Lab10.Polkadot;
-import Lab11.Ball;
+import Lab17.Polkadot;
+import Lab17.Ball;
 
 
    
@@ -40,6 +40,7 @@ private Color myC;
   public Color getColor(){return myC;}
   public void setxWidth(int xWidth){this.myXW=xWidth;}
   public void setyWidth(int yWidth){this.myYW=yWidth;}
+  
   public void setColor(Color myColor){this.myC=myColor;}
    
 
@@ -85,4 +86,12 @@ private Color myC;
          return true;            
 return false;
 }
+  public void sety(float y) {
+    // TODO Auto-generated method stub
+    this.myY=y;
+  }
+  public void setx(float x) {
+   // TODO Auto-generated method stub
+   this.myX=x;
+  }
 }

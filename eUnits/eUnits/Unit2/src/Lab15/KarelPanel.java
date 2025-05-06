@@ -21,10 +21,10 @@ package Lab15;
          myImage =  new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
          myBuffer = myImage.getGraphics();
          myArray = new ImageIcon[4];
-         myArray[0] = new ImageIcon("karele.gif");   //east
-         myArray[1] = new ImageIcon("kareln.gif");   //north
-         myArray[2] = new ImageIcon("karelw.gif");   //west
-         myArray[3] = new ImageIcon("karels.gif");   //south
+         myArray[0] = new ImageIcon("C:\\Users\\User\\OneDrive\\Documents\\GitHub\\Java_Course_v1122\\eUnits\\eUnits\\Unit2\\src\\Lab15\\karele.gif");   //east
+         myArray[1] = new ImageIcon("C:\\\\Users\\\\User\\\\OneDrive\\\\Documents\\\\GitHub\\\\Java_Course_v1122\\\\eUnits\\\\eUnits\\\\Unit2\\\\src\\\\Lab15\\\\kareln.gif");   //north
+         myArray[2] = new ImageIcon("C:\\\\Users\\\\User\\\\OneDrive\\\\Documents\\\\GitHub\\\\Java_Course_v1122\\\\eUnits\\\\eUnits\\\\Unit2\\\\src\\\\Lab15\\\\karelw.gif");   //west
+         myArray[3] = new ImageIcon("C:\\\\Users\\\\User\\\\OneDrive\\\\Documents\\\\GitHub\\\\Java_Course_v1122\\\\eUnits\\\\eUnits\\\\Unit2\\\\src\\\\Lab15\\\\karels.gif");   //south
          dir = 0;     //start facing east
          xPos = 5;    //starting xPos
          yPos = HEIGHT - 3 - myArray[dir].getImage().getHeight(null); //starting yPos
@@ -44,24 +44,61 @@ package Lab15;
             myBuffer.setColor(Color.red);
             for(int x = 17; x < WIDTH; x += 30) //vertical lines
             {
-               myBuffer.drawLine(/*     */);
+               myBuffer.drawLine(x,0,x,HEIGHT);
             }
             for(int y = 9; y < HEIGHT; y += 28) //horizontal lines
             {
-               myBuffer.drawLine(/*     */);
+               myBuffer.drawLine(0,y,WIDTH,y);
             }
             myBuffer.fillRect(107, 121, 180, 56);
             myBuffer.setColor(Color.black);
             myBuffer.setFont(new java.awt.Font("SansSerif", java.awt.Font.BOLD, 20));
             myBuffer.drawString("Karel the Robot", 125, 155);
-            
+         
          	/*************************************
          	Calculate karel's xPos and yPos.
          	At the end of each row, the dir changes.
          	The dir controls which image to use.
          	*************************************/
             myBuffer.drawImage(myArray[dir].getImage(), xPos, yPos, null);
-            
+            switch (dir) {
+               case 0:
+                  if(xPos<361){
+                     xPos=xPos+15;
+                  }else{
+                     dir=1;
+                     xPos=362;
+                     yPos=360;
+                  }
+                  
+                  break;
+               case 1:
+                  if (yPos>9) {
+                     yPos=yPos-14;
+                  } else{
+                     dir=3;
+                     xPos=4;
+                     yPos=0;
+                  
+               }   
+               
+                  break;
+               case 3:
+                  if (yPos<361) {
+                     yPos=yPos+14;
+                     
+                  }else{
+                     dir=0;
+                     xPos=5;
+                     yPos=HEIGHT-3-myArray[dir].getImage().getHeight(null);
+                  }
+                  break;
+            }
+
+
+
+
+
             repaint();
          }
       }
